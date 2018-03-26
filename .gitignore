@@ -1,0 +1,14 @@
+/bolo/node_modules
+/bolo/public/hot
+/bolo/public/storage
+/bolo/storage/*.key
+/bolo/vendor
+.idea
+.vscode
+.vagrant
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+.env
+.DS_Store

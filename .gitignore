@@ -1,5 +1,7 @@
 /bolo/node_modules
 /bolo/public/hot
+/bolo/public/css
+/bolo/public/js
 /bolo/public/storage
 /bolo/storage/*.key
 /bolo/vendor

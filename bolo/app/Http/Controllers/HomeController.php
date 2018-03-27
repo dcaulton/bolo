@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Auth;
 use Illuminate\Http\Request;
+use Javascript;
 
 class HomeController extends Controller
 {
@@ -26,6 +27,9 @@ class HomeController extends Controller
     {
 #        dd(Auth::user()['email']);
 #        dd(Auth::user());
+        Javascript::put([
+            'jibba' => 'jabba'
+        ]);
         return view('home');
     }
 }

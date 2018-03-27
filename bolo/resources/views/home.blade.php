@@ -55,3 +55,8 @@
     </div>
 </div>
 @endsection
+
+@section('footer')
+<h3>rolf</h3>
+@endsection
+

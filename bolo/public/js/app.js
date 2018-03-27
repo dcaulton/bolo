@@ -13885,16 +13885,24 @@ window.Vue = __webpack_require__(36);
 Vue.component('example-component', __webpack_require__(39));
 
 var app = new Vue({
-  el: '#app',
-  data: {
-    user: {},
-    project: {},
-    processingMap: {},
-    feeds: {},
-    transformations: {},
-    apis: {}
-  },
-  methods: {}
+    el: '#app',
+    data: {
+        user: {},
+        project: {},
+        processingMap: {},
+        feeds: {},
+        transformations: {},
+        apis: {}
+    },
+    methods: {},
+    created: function created() {
+        //alert('i have been created');
+        // if we don't have a data object fetch the latest project for this user
+    },
+    mounted: function mounted() {
+        //alert('i have been mounted');
+        // all vue js templates have been finished drawing now
+    }
 });
 
 /***/ }),

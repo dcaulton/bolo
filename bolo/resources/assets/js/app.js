@@ -28,5 +28,13 @@ const app = new Vue({
         apis: {},
     },
     methods: {
-    }
+    },
+    created: function (){
+//alert('i have been created');
+// if we don't have a data object fetch the latest project for this user
+    },
+    mounted: function () {
+//alert('i have been mounted');
+// all vue js templates have been finished drawing now
+    },
 });

@@ -27,9 +27,9 @@ class HomeController extends Controller
     {
 #        dd(Auth::user()['email']);
 #        dd(Auth::user());
-        Javascript::put([
-            'jibba' => 'jabba'
-        ]);
+#        Javascript::put([
+#            'jibba' => 'jabba'
+#        ]);
         return view('home');
     }
 }

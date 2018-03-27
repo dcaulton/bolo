@@ -13900,7 +13900,7 @@ var app = new Vue({
         // if we don't have a data object fetch the latest project for this user
     },
     mounted: function mounted() {
-        alert('i have been mounted');
+        //alert('i have been mounted');
         // all vue js templates have been finished drawing now
     }
 });

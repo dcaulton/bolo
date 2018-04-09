@@ -16,6 +16,10 @@ window.Vue = require('vue');
  */
 
 Vue.component('example-component', require('./components/ExampleComponent.vue'));
+Vue.component('layer-detail', require('./components/LayerDetail.vue'));
+Vue.component('control-panel', require('./components/ControlPanel.vue'));
+Vue.component('thumbnail-flow-panel', require('./components/ThumbnailFlowPanel.vue'));
+Vue.component('output-panel', require('./components/OutputPanel.vue'));
 
 const app = new Vue({
     el: '#app',

@@ -3,10 +3,10 @@
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <div class="card card-default">
-                    <div class="card-header">Layer Detail</div>
+                    <div class="card-header">BuilderPanel</div>
 
                     <div class="card-body">
-                        I'm a layer detail.
+                        I'm a builder panel.
                     </div>
                 </div>
             </div>
@@ -17,7 +17,7 @@
 <script>
     export default {
         mounted() {
-            console.log('LayerDetail Component mounted.')
+            console.log('BuilderPanel Component mounted.')
         }
     }
 </script>

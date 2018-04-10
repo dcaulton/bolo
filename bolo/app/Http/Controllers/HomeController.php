@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Auth;
 use Illuminate\Http\Request;
-use Javascript;
+use JavaScript;
 
 class HomeController extends Controller
 {
@@ -25,11 +25,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-#        dd(Auth::user()['email']);
-#        dd(Auth::user());
-#        Javascript::put([
-#            'jibba' => 'jabba'
-#        ]);
+        JavaScript::put(['ugly' => 'betty', 'magilla' => 'gorilla']);
         return view('home');
     }
 }

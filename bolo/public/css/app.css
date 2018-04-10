@@ -10000,3 +10000,27 @@ a.text-dark:focus {
           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
 
+.builder-panel-container .card-body {
+  background-color: #e4e7e7;
+}
+
+.home-container {
+  background-color: #bbc3c2;
+}
+
+.output-panel-container .card-body {
+  background-color: #f1f3f3;
+}
+
+.control-panel-container .card-body {
+  background-color: #d6dbda;
+}
+
+.layer-detail-container .card-body {
+  background-color: #c7cdcc;
+}
+
+.thumbnail-flow-panel-container .card-body {
+  background-color: #c9cfce;
+}
+

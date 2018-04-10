@@ -13981,7 +13981,6 @@ module.exports = __webpack_require__(58);
  * building robust, powerful web applications using Vue and Laravel.
  */
 
-console.log('beep');
 __webpack_require__(14);
 
 window.Vue = __webpack_require__(37);
@@ -47652,6 +47651,12 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
     mounted: function mounted() {
@@ -47679,14 +47684,36 @@ var staticRenderFns = [
         _c("div", { staticClass: "col-md-8" }, [
           _c("div", { staticClass: "card card-default" }, [
             _c("div", { staticClass: "card-header" }, [
-              _vm._v("Thumbnail Flow Panel")
+              _vm._v("Thumbnail Flow Panel\n                    "),
+              _c("div", { staticClass: "ml-3 float-right" }, [
+                _c(
+                  "a",
+                  {
+                    staticClass: "btn btn-primary",
+                    attrs: {
+                      href: "#thumbnail-flow-panel",
+                      "data-toggle": "collapse"
+                    }
+                  },
+                  [_vm._v("hide")]
+                )
+              ])
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "card-body" }, [
-              _vm._v(
-                "\n                    I'm a thumbnail flow panel.\n                "
-              )
-            ])
+            _c(
+              "div",
+              {
+                staticClass: "collapse in",
+                attrs: { id: "thumbnail-flow-panel" }
+              },
+              [
+                _c("div", { staticClass: "card-body" }, [
+                  _vm._v(
+                    "\n                        I'm a thumbnail flow panel.\n                    "
+                  )
+                ])
+              ]
+            )
           ])
         ])
       ])

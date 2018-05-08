@@ -1,12 +1,12 @@
 <template>
     <div class="new-layer-panel-container">
-        <div class="row justify-content-center">
+        <div class="row">
             <div class="col-md-8">
                 <div class="card card-default">
-                    <div class="card-header">NewLayer</div>
+                    <div class="card-header">New Layer</div>
 
                     <div class="card-body">
-                        I'm a new layer
+                        New Layer
                     </div>
                 </div>
             </div>

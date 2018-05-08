@@ -8,6 +8,7 @@
                     <div class="card-body">
                         I'm a builder panel.
                     </div>
+                    <show-new-layer-button></show-new-layer-button>
                     <new-layer></new-layer>
                     <layer-detail></layer-detail>
                 </div>

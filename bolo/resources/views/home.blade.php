@@ -5,7 +5,6 @@
     <div class="row">
         <div class="col-md-8">
             <builder-panel></builder-panel>
-            <layer-detail></layer-detail>
             <thumbnail-flow-panel></thumbnail-flow-panel>
             <control-panel></control-panel>
         </div>

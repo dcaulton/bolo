@@ -1,15 +1,13 @@
 <template>
-    <div class="builder-panel-container">
+    <div class="new-layer-panel-container">
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <div class="card card-default">
-                    <div class="card-header">BuilderPanel</div>
+                    <div class="card-header">NewLayer</div>
 
                     <div class="card-body">
-                        I'm a builder panel.
+                        I'm a new layer
                     </div>
-                    <new-layer></new-layer>
-                    <layer-detail></layer-detail>
                 </div>
             </div>
         </div>
@@ -19,7 +17,7 @@
 <script>
     export default {
         mounted() {
-            console.log('BuilderPanel Component mounted.')
+            console.log('New Layer Component mounted.')
         }
     }
 </script>

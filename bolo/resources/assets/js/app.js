@@ -17,6 +17,7 @@ window.Vue = require('vue');
 
 Vue.component('example-component', require('./components/ExampleComponent.vue'));
 Vue.component('layer-detail', require('./components/LayerDetail.vue'));
+Vue.component('new-layer', require('./components/NewLayer.vue'));
 Vue.component('control-panel', require('./components/ControlPanel.vue'));
 Vue.component('thumbnail-flow-panel', require('./components/ThumbnailFlowPanel.vue'));
 Vue.component('output-panel', require('./components/OutputPanel.vue'));
@@ -24,14 +25,6 @@ Vue.component('builder-panel', require('./components/BuilderPanel.vue'));
 
 const app = new Vue({
     el: '#app',
-    data: {
-        user: {},
-        project: {},
-        processingMap: {},
-        feeds: {},
-        transformations: {},
-        apis: {},
-    },
     methods: {
     },
     created: function (){

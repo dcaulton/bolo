@@ -84,7 +84,7 @@ module.exports = __webpack_require__(2);
 
 __webpack_require__(19);
 
-//window.Vue = require('vue');
+window.Vue = __webpack_require__(22);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -101,15 +101,6 @@ Vue.component('builder-panel', __webpack_require__(60));
 
 var app = new Vue({
     el: '#app',
-    data: {
-        user: {},
-        project: {},
-        processingMap: {},
-        feeds: {},
-        transformations: {},
-        apis: {},
-        layers: {}
-    },
     methods: {},
     created: function created() {
         //alert('i have been created');

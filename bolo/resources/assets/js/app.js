@@ -7,7 +7,7 @@
 
 require('./bootstrap');
 
-//window.Vue = require('vue');
+window.Vue = require('vue');
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -24,15 +24,6 @@ Vue.component('builder-panel', require('./components/BuilderPanel.vue'));
 
 const app = new Vue({
     el: '#app',
-    data: {
-        user: {},
-        project: {},
-        processingMap: {},
-        feeds: {},
-        transformations: {},
-        apis: {},
-        layers: {}
-    },
     methods: {
     },
     created: function (){
